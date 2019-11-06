@@ -1,0 +1,79 @@
+* {
+    box-sizing: border-box;
+}
+
+.ba-main-cupplan {
+    background-color: #fdde7e;
+    display: flex;
+}
+
+.conteiner {
+    height: 100vh;
+    max-width: 1140px;
+    width: 100%;
+    margin: 200px auto;
+    padding: 0;
+}
+
+.ba-row {
+    align-items: center;  
+}
+
+.ba-main-cupplan-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    height: 443px;
+    padding: 50px 0 36px;
+    border-radius: 5px;
+    -webkit-box-shadow: 0px 3px 10px 0px rgba(218,192,109,1);
+    -moz-box-shadow: 0px 3px 10px 0px rgba(218,192,109,1);
+    box-shadow: 0px 3px 10px 0px rgba(218,192,109,1);
+    
+}
+
+.ba-main-cupplan-wrapper-big {
+    height: 500px;
+    padding-top: 36px;
+    padding-bottom: 35px;
+}
+
+.ba-main-cupplan__title {
+    font-family: 'Miso';
+    font-weight: bold;
+    color: #02995b;
+    font-size: 70px;
+    margin: 0px;
+    padding-bottom: 14px;
+    text-align: center;
+    padding-right: 15px; 
+}
+
+.ba-main-cupplan__title-big {
+    padding-bottom: 30px;
+}
+
+.ba-main-cupplan__name-big {
+    padding-top: 45px;
+    padding-bottom: 13px;
+}
+
+.ba-main-cupplan__name {
+    color: #333333;
+    font-family: 'Miso';
+    font-weight: normal;
+    font-size: 56px;
+    margin: 0px;
+    padding-top: 30px;
+}
+
+.ba-main-cupplan__text {
+    font-family: 'Lato', sans-serif; 
+    font-weight: 300;
+    color: #333333;
+    text-align: center;
+    font-size: 20px;
+    letter-spacing: 0.3;
+}
